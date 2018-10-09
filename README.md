@@ -1,27 +1,57 @@
-Welcome to the Glitch BETA
-==========================
+WRITER BOT FOR DISCORD
+Writer Bot is a work in progress. Commands listed in red are not yet live, but planned for future updates.
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+Command basics:
+Commands with [brackets] mean that your input is required. The brackets themselves are not required, though!
+Commands are NOT case sensitive.
+ 
 
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+Just for Fun
+Command	Description
+=coinflip	Chooses randomly between Heads and Tails
+=choose [choice1] [choice2] [choice3]	Chooses randomly between your options, separated by commas
+=roll	Chooses a random number between 1 and 6
+=roll [#]	Chooses a random number between 1 and your input #
+=roll [# #]	Chooses a random number between your two input numbers
+=8ball	Gives you advice from The Muse
+ 
 
-Find out more [about Glitch](https://glitch.com/about).
+Sprint Timers & Productivity
+Command	Description
+=sprint [time]	Sets a sprint timer for the specified amount of time
+=marathon [#]	Runs through a series of # sprints in a row with short breaks in between each sprint. Defaults to 15 min sprints, 7 min breaks. Change defaults with =setup.
+ 
 
+Writing Tools
+Command	Description
+=define [word]	Defines your word
+=synonym [word]	Lists synonyms for your word
+=antonym [word]	Lists antonyms for your word
+=advice [category]	Shares a link to the specified tag page on thecharactercomma.tumblr.com. Keep search terms simple and broad.
+If the page has no results, try again with related words. For example, for fight scenes you might try:
 
-Your Project
-------------
+Fight scenes
+Fight scene
+Combat
+Fighting
+ 
 
-On the front-end,
-- edit `public/client.js`, `public/style.css` and `views/index.html`
-- drag in `assets`, like images or music, to add them to your project
+Writing Inspiration & Motivation
+ 
 
-On the back-end,
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
+Command	Description
+=quote	Gives you a random writing-related quote
+=prompt	Gives you a random writing prompt
+=prompt [category]	Gives you a random writing prompt from the selected category
+Writing craft/story development
+Character development
+Story starter
+Dialogue snippet
+Fanfiction premise
+=nag	Nags you to write
+ 
 
-
-Made by [Fog Creek](https://fogcreek.com/)
--------------------
-
-\ ゜o゜)ノ
+Writer Bot Basics
+Command	Description
+=help	Shares a link to this page
+=setup	Runs through setup options to set Writer Bot defaults

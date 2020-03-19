@@ -4,10 +4,11 @@ const app = express();
 const Discord = require ('discord.js');
 const bot = new Discord.Client();
 const axios = require('axios');
+require('dotenv').config()
 
 const words = axios.create({
   headers: {
-    "X-Mashape-Key": "qdtnvEin4XmshmpFr7EUrTWq6RG2p1FUXoNjsnpMtOU4AMyf9l",
+    "X-Mashape-Key": process.env.API_KEY,
     "X-Mashape-Host": "wordsapiv1.p.mashape.com",
   }
 });
